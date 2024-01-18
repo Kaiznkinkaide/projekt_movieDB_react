@@ -1,9 +1,12 @@
 import MovieList from "../movilist/MovieList";
-
-const Main = () => {
+import"./main.css"
+const Main = ({data}) => {
     return ( 
         <>
-        <MovieList/>
+        <section>
+        <MovieList
+        data={data}/>
+        </section>
         </>
      );
 }

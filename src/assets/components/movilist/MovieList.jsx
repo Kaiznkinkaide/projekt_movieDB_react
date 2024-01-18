@@ -1,5 +1,5 @@
 import MovieItem from "../movieitem/MovieItem";
-
+import"./movielist.css"
 
 const MovieList = ({data}) => {
     return ( 
@@ -7,7 +7,7 @@ const MovieList = ({data}) => {
         
         {data.map((movie, index) => {
             return(
-                <div key={index}>
+                <div className="card"key={index}>
                 <MovieItem
                     title={movie.title}
                     year={movie.year}
