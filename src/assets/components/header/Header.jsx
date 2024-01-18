@@ -6,7 +6,6 @@ const Header = () => {
         <>
         <header>
         <h1>Movie DB</h1>
-        <Button/>
         </header>
         </>
      );

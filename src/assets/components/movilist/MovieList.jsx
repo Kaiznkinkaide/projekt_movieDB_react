@@ -1,10 +1,12 @@
 import MovieItem from "../movieitem/MovieItem";
 import"./movielist.css"
 
+
+
 const MovieList = ({data}) => {
+    console.log(data);
     return ( 
         <>
-        
         {data.map((movie, index) => {
             return(
                 <div className="card"key={index}>
